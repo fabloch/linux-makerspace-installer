@@ -117,17 +117,27 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt-get update
 sudo apt-get install -y obs-studio
 
+
 #### Lasercut
 # visicut
 wget http://download.visicut.org/files/master/Debian-Ubuntu-Mint/visicut_1.8-94-g0188ab30-1_all.deb
 dpkg -i visicut_1.8-94-g0188ab30-1_all.deb
 rm visicut_1.8-94-g0188ab30-1_all.deb
 
+
 #### Electronics & IOT
 # arduino-ide
 sudo apt-get install arduino
 
-wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+
+#### Coding
+# atom
+sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
-sudo apt-get install -y atom
+sudo apt-get install atom
+
+# code::blocks
+sudo apt-get install -y gcc
+sudo apt-get install -y clang
+sudo apt-get update
+sudo apt-get install -y codeblocks
