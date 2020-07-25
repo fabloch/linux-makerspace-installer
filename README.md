@@ -10,6 +10,14 @@ Install almost from scratch a linux machine under Ubuntu.
 - Type `chmod +x install.sh`
 - Type `./install.sh`
 
+## List of necessary configurations 
+
+- Set Nas as auto-mount so software config can be access from distant drive from the start 
+- Set Launcher on desktop to simplify acess to distant directories : Projets Adhérents/ Tutoriels ... 
+- Set Symlink in My Documents to ease saving of G-code files (open my documents by default) or change this path to each soft... 
+- Install all fonts 
+
+
 ## List of softwares:
 
 #### Office
