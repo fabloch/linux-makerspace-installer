@@ -37,7 +37,7 @@ Install almost from scratch a linux machine under Ubuntu.
 
 #### 3D printing and CAD
 
-- Cura
+- PrusaSlicer
 - Repetier
 - **#TODO** machine params?
 
