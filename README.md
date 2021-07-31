@@ -1,28 +1,28 @@
 # Linux Makerspace Installer
 
-Install almost from scratch a linux machine under Ubuntu.
+Installer presque à partir de zéro une machine linux sous Ubuntu.
 
-## Installation instructions
+## Instructions d'installation
 
-- Install a fresh version of ubuntu
-- Connect as `root`
-- Clone this repo, then `cd linux-makerspace-installer`
+- Installer une nouvelle version d'ubuntu
+- Connecter en tant que `root`
+- Clonez ce dépôt, puis `cd linux-makerspace-installer`
 - Type `chmod +x install.sh`
 - Type `./install.sh`
 
-## List of necessary configurations 
+## Liste des configurations nécessaires 
 
-- Set Nas as auto-mount so software config can be access from distant drive from the start 
-- Set Launcher on desktop to simplify acess to distant directories : Projets Adhérents/ Tutoriels ... 
-- Set Symlink in My Documents to ease saving of G-code files (open my documents by default) or change this path to each soft... 
-- Install all fonts 
+- Configurer Nas comme auto-mount pour que la configuration du logiciel puisse être accessible depuis un disque distant dès le début. 
+- Placez le Launcher sur le bureau pour simplifier l'accès aux répertoires distants : Projets Adhérents/ Tutoriels ... 
+- Définissez Symlink dans Mes Documents pour faciliter l'enregistrement des fichiers G-code (ouvrir mes documents par défaut) ou changez ce chemin à chaque soft... 
+- Installer toutes les polices 
 
 
-## List of softwares:
+## Liste de logiciels :
 
 #### Office
 
-- Firefox + list of shorcuts
+- Firefox + liste de raccourcis
 - LibreOffice
 - FileZilla
 - Fonts
