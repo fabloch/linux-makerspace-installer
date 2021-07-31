@@ -75,10 +75,11 @@ sudo apt-get update
 sudo apt-get install -y blender
 
 #### 3D printing and CAD
-# cura
-sudo add-apt-repository ppa:thopiekar/cura
-sudo apt-get update
-sudo apt-get install -y cura
+# Prusa Slicer
+sudo cd Downloads
+sudo ls
+sudo chmod a+x PrusaSlicer-exact-file-name.AppImage
+sudo ./PrusaSlicer-exact-file-name.AppImage
 
 # repetier-host
 sudo apt-get install -y repetier-host
